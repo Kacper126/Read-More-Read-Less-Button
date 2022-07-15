@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <script src="buttons.js" defer></script>
+    <style>
+        *, *::after, *::before {
+            box-sizing: border-box;
+        }
+
+        #readMore {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Read More Read Less Button</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fuga harum explicabo error? <span id="dots">...</span><span id="readMore">Dicta, aut neque accusamus optio praesentium alias laborum quod eius ipsum nam perferendis illo. Optio voluptas laboriosam voluptate quis ad impedit aut, voluptatibus eum doloremque quidem maiores nostrum iure eaque qui quam fugit veritatis quos at esse.</span></p>
+
+    <button id="readButton" onclick="moreOrLess()">Read more</button>
+</body>
